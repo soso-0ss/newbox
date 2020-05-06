@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>homework</title>
+    <style>
+    a{
+      color:steelblue;
+      text-decoration:none;
+    }
+      body{
+        margin:0;
+        background-color:lemonchiffon; 
+      }
+      h1{
+        border-bottom:5px solid lightyellow;
+        margin:0px;
+        padding:50px;
+        display:block;
+        width;
+        text-align: center;
+        background-image:url(blue1.png)
+      }
+      ol{
+        border-right:5px solid lightyellow;
+        width:150px;
+        margin:0px;
+        padding-left:40px;
+        padding-top:20px;
+        background-color:lemonchiffon;
+          color:steelblue;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 230px 1fr;
+      }
+      @media(max-width:800px){
+        #grid{
+          display:block;
+        }
+        ol{
+          border-right:none;
+        }
+        h1{
+          border-bottom:none;
+        }
+        body{
+          background-color:lemonchiffon;      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>디지털인문예술입문과제</h1>
+    <div id="grid">
+      <ol>
+          <li><a href="1.자기소개.html">자기소개</a></li>
+          <li><a href="2.일본학과.html">일본학과</a></li>
+          <li><a href="3.디지털인문예술.html">디지털인문예술</a></li>
+      </ol>
+    <div>
+      <h2>시작페이지</h2>
+      <p>왼쪽의 카테고리를 클릭해주세요</p>
+    </div>
+  </div>
+  </body>
+</html>
